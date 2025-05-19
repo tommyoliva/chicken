@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html?>
+<head>
+<title>new project</title>
+<style>
+    .home{
+      background-color: blue;
+      padding-bottom: 0px;
+      padding-top: 5px;
+      border-radius: 1.5mm;
+      border-style: solid;
+      border-width: medium;
+    }
+    
+    .page{
+      padding-left: 198px;
+      font-size: 35px;
+    }
+    body{
+      margin: -1px;
+      transition-duration: 4s;
+    }
+    
+    body :hover{
+      background-color: aqua;
+    }
+    
+    .navbar{
+      overflow: hidden;
+      background-color: black;
+      color: white;
+      font-family: Arial;
+      transition-duration: 2s;
+    
+    }
+    .navbar a{
+      text-decoration: none;
+      display: inline-block;
+      color: white;
+      padding-top: 30px;
+      padding-left: 10px;
+      padding-bottom: 4px;
+      transition-duration: 2s;
+    }
+    
+    .navbar :hover{
+      background-color: rgb(28, 240, 169);
+    }
+    
+    .navbar a:hover{
+      color: orange;
+    }
+    
+    .dropdown{
+      overflow: hidden;
+    }
+    
+    
+    .btn{
+      float: right;
+      position: relative;
+      border: none;
+      background-color: slateblue;
+      color: white;
+      margin: 8px;
+    }
+    
+    
+    .drop-content{
+      display: none;
+      z-index: 1;
+      padding: 14px 14px;
+      font-family: kenia;
+    }
+    
+    
+    .drop-content a{
+      display: block;
+    }
+    
+    .drop-content a:hover{
+      background-color: rgb(21, 20, 20);
+      border-radius: 2mm;
+    }
+    
+    
+    .dropdown:hover .drop-content{
+      display: block;
+      background-color: black;
+    }
+    
+    .dropdown:hover .btn{
+      background-color:  rgb(41, 21, 170);
+    }
+    
+    
+    </style>
+    
+    </head>
+    <body>
+      <div class="navbar">
+      <span class="home">Home Page&nbsp;&nbsp;&nbsp;</span>
+      <a href="#">UserAccount</a>
+      <a href="about.html">About Cloudpharma</a>
+    <span class="page">Cloudpharma</span>
+    <div class="dropdown">
+      <button class="btn">menu</button>
+      <div class="drop-content">
+        <a href="#">Logout</a>
+        <a href="#">admin work page1</a>
+        <a href="#">admin work page2</a>
+        <a href="#">admin work page3</a>
+        <a href="#">admin work page4</a>
+        <a href="#">admin work page5</a>
+      </div>
+      <img src="hq720.webp">
+    </body>
+    </html>
+    
